@@ -14,7 +14,15 @@
                 'url'=>route('tecnologias.index'),
                 'current'=>request()->routeIs('tecnologias.index')
                 
+            ],
+            [
+                'name'=>'Post',
+                'icon'=>'newspaper',
+                'url'=>route('post.index'),
+                'current'=>request()->routeIs('post.index')
+                
             ]
+
         ]
     ]
 @endphp
