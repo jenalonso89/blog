@@ -4,7 +4,7 @@
     <div class="mb-8 flex justify-between">
     <flux:breadcrumbs>
         <flux:breadcrumbs.item :href="route('dashboard')">Home</flux:breadcrumbs.item>
-        <flux:breadcrumbs.item href="#">Tecnologias</flux:breadcrumbs.item>
+         <flux:breadcrumbs.item :href="route('tecnologias.index')">Tecnologias</flux:breadcrumbs.item>
         <flux:breadcrumbs.item href="#">Nuevo</flux:breadcrumbs.item>
 
     </flux:breadcrumbs>

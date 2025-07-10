@@ -21,6 +21,13 @@
                 'url'=>route('post.index'),
                 'current'=>request()->routeIs('post.index')
                 
+            ],
+             [
+                'name'=>'Users',
+                'icon'=>'user-group',
+                'url'=>route('users.index'),
+                'current'=>request()->routeIs('users.index')
+                
             ]
 
         ]
